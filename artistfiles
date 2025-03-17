@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan Aujla Fan Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff6a00, #ffcc00);
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            background: url('karan_aujla_bg.jpg') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        .btn {
+            background: #d40000;
+            color: #fff;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #a80000;
+        }
+        .music-player {
+            margin: 30px 0;
+        }
+        iframe {
+            width: 80%;
+            height: 400px;
+            border-radius: 12px;
+        }
+        .social-links {
+            margin: 20px 0;
+        }
+        .social-links a {
+            margin: 0 15px;
+            font-size: 2rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .social-links a:hover {
+            color: #d40000;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Karan Aujla</h1>
+            <p>Latest Album Out Now!</p>
+            <a href="https://open.spotify.com/artist/3ZCrYYvmeC0uNqxN3eP6Y1" target="_blank" class="btn">Listen Now</a>
+        </div>
+    </header>
+
+    <section class="music-player">
+        <h2>Featured Album</h2>
+        <iframe src="https://open.spotify.com/embed/album/5H8pq8wlBQ5OrMGzXe5Xg0" frameborder="0" allow="encrypted-media"></iframe>
+    </section>
+
+    <section class="social-links">
+        <h2>Follow Karan Aujla</h2>
+        <a href="https://www.instagram.com/karanaujla_official/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCmYMSDzmjDxlU9zSv-uL3aQ" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://open.spotify.com/artist/3ZCrYYvmeC0uNqxN3eP6Y1" target="_blank"><i class="fab fa-spotify"></i></a>
+    </section>
+
+    <footer>
+        <p>Fan-made website for Karan Aujla | Not affiliated with the artist</p>
+    </footer>
+</body>
+</html>
